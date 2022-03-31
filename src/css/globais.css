@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(68.15deg, #daf1ee 16.62%, #c3d7d9 85.61%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Nome perfil E Settings*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
+
+
+/* analisando */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+/* Configuração */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');

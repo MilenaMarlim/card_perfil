@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ec0965e20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/globais.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>Perfil Card</title>
+</head>
+
+<body>
+    <main class="card">
+
+        <section class="cabecalho">
+            <div class="informacoes_perfil">
+                <img src="src/images/foto_perfil.jpg" alt="Foto de perfil">
+                <h1>Jon Möller</h1>
+                <div class="localizacao">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Stockholm, Sweden</h2>
+                </div>
+                <h2 class="profissao">Visual Designer</h2>
+            </div>
+            <button class="botao_upgrade">
+                <a href="#">Upgrade Now - Go Pro </a>
+            </button>
+        </section>
+
+        <section class="settings">
+            <h2 class="titulo_settings">Settings</h2>
+            <section class="grupo1">
+                <div class="tipo-de-configuracao">
+                    <i class="fa-solid fa-moon"></i>
+                    <h2>Dark Mode</h2>
+                </div>
+
+                <div class="botao_darkmode">
+                    <div onclick="clicar()" class="botao">
+                        <div class="bola"></div>
+                        <!-- <img src="./assets/moon.svg" alt="">
+                            <img src="./assets/sun.svg" alt=""> -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="grupo2">
+                <ul>
+                    <li class="item">
+                        <div class="tipo-de-configuracao">
+                            <i class="fa-solid fa-bell"></i>
+                            <h2>Notifications</h2>
+                        </div>
+
+                        <div class="area-de-acesso">
+                            <h2>On</h2>
+                            <a href="#">
+                                <img class="seta" src="src/images/seta.png" alt="seta">
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="item">
+                        <div class="tipo-de-configuracao">
+                            <i class="fa-solid fa-lock"></i>
+                            <h2>Privacy</h2>
+                        </div>
+                        <div class="seta">
+                            <a href="#">
+                                <img src="src/images/seta.png" alt="seta">
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="item">
+                        <div class="tipo-de-configuracao">
+                            <i class="fa-solid fa-shield"></i>
+                            <h2>Security</h2>
+                        </div>
+                        <div class="seta">
+                            <a href="#">
+                                <img src="src/images/seta.png" alt="seta">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="grupo3">
+                <ul>
+                    <li class="item">
+                        <div class="tipo-de-configuracao">
+                            <i class="fa-solid fa-user"></i>
+                            <h2>Account</h2>
+                        </div>
+                        <div class="seta">
+                            <a href="#">
+                                <img src="src/images/seta.png" alt="seta">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="tipo-de-configuracao">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <h2>Help</h2>
+                        </div>
+                        <div class="seta">
+                            <a href="#">
+                                <img src="src/images/seta.png" alt="seta">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="tipo-de-configuracao">
+                            <i class="fa-solid fa-info"></i>
+                            <h2>About</h2>
+                        </div>
+                        <div class="seta">
+                            <a href="#">
+                                <img src="src/images/seta.png" alt="seta">
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <script src="funcoes.js"></script>
+</body>
+
+</html>
