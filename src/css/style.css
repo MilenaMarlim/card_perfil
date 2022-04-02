@@ -40,7 +40,7 @@
     font-size: 30px;
     color: #423535;
     padding-top: 5px;
-    font-family: 'Roboto Serif', serif; 
+   
 }
 
 .informacoes_perfil .localizacao {
@@ -59,7 +59,6 @@
 
 .informacoes_perfil .localizacao h2 {
     font-family: 'Roboto Slab', serif;
-    /* pegar sem o bold essa fonte */
     color: lightgray;
     font-size: 10px;
 }
@@ -69,6 +68,7 @@
     font-size: 18px;
     color: #423535;
     font-size: 14px;
+    opacity: 90%;
 }
 
 .botao_upgrade {
@@ -168,10 +168,9 @@
     padding: 5px;
 }
 
-.seta {
+.settings .seta{
     width: 10px;
     height: 10px;
-    color: lightgray;
 }
 
 .btn{
@@ -200,6 +199,13 @@
     background: #000;
 }
 
+.cabecalho.ativo .seta_retorno, .settings.ativo .seta{
+   background-color: #04D361;
+   border-radius: 50%;
+   height: 15px;
+   width: 15px;
+}
+
 .card.ativo h1, .card.ativo h2{
     color: white;
 }
@@ -207,6 +213,7 @@
 .cabecalho.ativo .botao_upgrade{
     background-color: #04D361;
 }
+
 .btn.ativo:before{
     left: 20px;
 }
