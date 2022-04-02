@@ -95,6 +95,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 5px;
 }
 
 .grupo1, .grupo2, .grupo3 {
