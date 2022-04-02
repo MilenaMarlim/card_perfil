@@ -90,6 +90,8 @@
 
 .grupo1 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .grupo1, .grupo2, .grupo3 {
@@ -157,36 +159,36 @@
     color: lightgray;
 }
 
-//
-/* 
-.botao {
-    background-color: red;
-    /* padding: 1rem 0.7rem; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5rem;
-    width: 50px;
-    height: 90px;
-    color: black;
-
-    /* position: relative; */
-
+.btn{
+    width: 40px;
+    height: 20px;
+    border-radius: 60px;
+    cursor: pointer;
+    position: relative;
+    background-color: lightgray;
 }
 
-.bola {
+.btn:before{
+    content: "";
+    width: 15px;
+    height: 15px;
     position: absolute;
-    width: 2.7rem;
-    height: 2.7rem;
-    clip-path: circle();
-    background-color: white;
-    transition: right 0.4s;
-    right: 0;
-
-    background-color: red;
-
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    transition: left .5s;
 }
 
-.bota_darkmode.ativo .bola {
-    right: 0.6rem;
-} */
+.card.ativo, .cabecalho.ativo, .settings.ativo{
+    background: #000;
+}
+
+.card.ativo h1, .card.ativo h2{
+    color: white;
+}
+
+.btn.ativo:before{
+    left: 20px;
+}
