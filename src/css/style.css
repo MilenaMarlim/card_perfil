@@ -13,6 +13,7 @@
     margin-top: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    position: relative;
 }
 
 .informacoes_perfil {
@@ -23,6 +24,16 @@
 .informacoes_perfil img{
     width: 65%;
     border-radius: 50%;
+}
+
+.informacoes_perfil .seta_retorno{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    left: 20px;
+    opacity: 70%;
+    cursor: pointer;
 }
 
 .informacoes_perfil h1 {
