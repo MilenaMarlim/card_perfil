@@ -8,7 +8,7 @@
 <p align="left"> 
 
 🚀  Quer ver como ficou? Clique:
-  (Em construção)
+  https://milenamarlim.github.io/card_perfil/
 </p>
 
 <p align="left">
